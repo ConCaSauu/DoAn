@@ -1,0 +1,84 @@
+body{
+    padding: o;
+    margin: 0;
+    background-color: wheat;
+}
+
+.wrapper{
+    border: 1px solid #000;
+    height: auto;
+    width: 1200px;
+    margin: 0 auto;
+    background-color: darksalmon;
+
+}
+
+.login {
+    margin: 200px;
+    width: 1150px;
+    text-align: center;
+}
+
+.content{
+    height: auto;
+    width: 100%;
+}
+
+h1{
+    font-weight: bold;
+    font-size: 40px;
+    margin-left: 10px;
+}
+
+ul.admin-list{
+    list-style: none;
+    padding: 0;
+}
+
+ul.admin-list li{
+    padding: 5px;
+}
+
+ul.admin-list li a{
+    text-decoration: none;
+    color: #000;
+}
+
+a:visited{
+    color: #000;
+}
+
+p{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+table{
+    margin-bottom: 15px;
+    padding-left: 0;
+    width: 600px;
+}
+
+table.log {
+    padding: 0;
+    width: 300px;
+    text-align: center;
+    margin-left: 435px;
+    
+}
+td{
+    padding: 2px;
+    width: auto;
+}
+
+a{
+    color: #000;
+}
+
+table.quanlysp td{
+    text-align: center;
+}
+
+table.chitiet td{
+    text-align: center;
+}

@@ -1,0 +1,1 @@
+<p>Xin Chao! <?php echo $_SESSION['dangnhapadmin']?></p>

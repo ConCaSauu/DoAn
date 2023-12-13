@@ -1,0 +1,1 @@
+<img style="width:98%; height:570px" src="images/thumbnail.png">
