@@ -23,7 +23,7 @@
         <td> <?php echo $row['pname'] ?></td>
         <td> <?php echo $row['pprice']."vnd" ?></td>
         <td> <?php echo $row['pquantity'] ?></td>
-        <td> <?php echo $row['cid'] ?></td>
+        <td> <?php echo $row['cname'] ?></td>
         <td> <?php if( $row['pstatus'] == 1){
                 echo 'Kích hoạt';    
             }else{
@@ -33,8 +33,9 @@
         </td>
         <td><img width="250px" src="modules/quanlysanpham/uploads/<?php echo $row['pimage'] ?>"></td>
         <td>
-            <a href="modules/quanlysanpham/xuly.php?pid=<?php echo $row['pid'] ?>">Xóa</a> |
-            <a href="?action=quanlysanpham&query=sua&pid=<?php echo $row['pid'] ?>">Sửa</a>
+            <a href="?action=quanlysanpham&query=sua&pid=<?php echo $row['pid'] ?>">Sửa</a>|
+            <a href="modules/quanlysanpham/xuly.php?pid=<?php echo $row['pid'] ?>">Xóa</a> 
+            
         </td>
     </tr>
     <?php

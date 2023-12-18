@@ -205,6 +205,40 @@ p.pro-price{
 
 }
 
+ul.list-new{
+    list-style: none;
+    margin-left: 12px;
+    padding: 0px;
+}
+
+ul.list-new li{
+    width: 99%;
+
+}
+
+ul.list-new li a{
+    display: flow-root;
+    text-decoration: none;
+    color: #000;
+}
+
+ul.list-new li a:hover{
+    background-color: darksalmon;
+}
+
+table.binhluan tr td input[type="text"] {
+    width: 645px;
+}
+
+ul.binhluan{
+    list-style: none;
+    border: solid 1px darksalmon;
+}
+
+ul.binhluan li{
+    text-align: left;
+}
+
 input.themgiohang {
     background-color: darksalmon;
     padding: 15px;
@@ -382,3 +416,4 @@ ul.pages li a:hover{
     height: 100px;
     width: 100%;
 }
+

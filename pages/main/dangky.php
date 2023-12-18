@@ -10,7 +10,7 @@
         if($query){
                 $_SESSION['dangky'] = $uname;
                 $_SESSION['uid'] = mysqli_insert_id($mysqli);
-                echo '<p style="font: size 25px; color: green;"> Bạn đã đăng ký thành công</p>';
+                echo '<p style="font: size 25px; color: green;"> Bạn đã đăng ký thành công. Bây giờ bạn có thể tiến hành đặt hàng ngay rồi đó !</p>';
         }
     }
 

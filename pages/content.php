@@ -18,7 +18,8 @@
             include("main/danhmuc.php");
         }elseif($tam =='sanpham' ){
             include("main/thumbnail.php");
-            include("main/index.php");           
+            include("main/index.php");
+            include("main/binhluan/binhluan.php");           
         }elseif($tam =='baiviet'){
             include("main/baiviet.php");
         }elseif($tam =='giohang'){
@@ -37,9 +38,12 @@
             include("main/dangnhap.php");
         }elseif($tam =='camon'){
             include("main/thank.php");
+        }elseif($tam =='chitietbaiviet'){
+            include("main/ctbaiviet.php");
         }else{
             include("main/thumbnail.php");
             include("main/index.php");
+            include("main/binhluan/binhluan.php");
         }    
     ?>    
     </div>

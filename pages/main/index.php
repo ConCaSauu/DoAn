@@ -1,4 +1,5 @@
 <?php
+    //include('../../admincp/config/config.php');
     if(isset($_GET['trang'])){
         $tam = $_GET['trang'];
     }else{

@@ -59,6 +59,14 @@ table{
     width: 600px;
 }
 
+input[type="text"] {
+    width: 70%;
+}
+
+input[type="number"]{
+    width: 70%;
+}
+
 table.log {
     padding: 0;
     width: 300px;
@@ -81,4 +89,8 @@ table.quanlysp td{
 
 table.chitiet td{
     text-align: center;
+}
+
+table.thembaiviet{
+    width: 900px
 }

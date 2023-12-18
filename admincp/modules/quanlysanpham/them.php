@@ -1,20 +1,20 @@
-<p>Them san pham</p>
+<p>Thêm sản phẩm</p>
 <table>
   <form method="POST" action="modules/quanlysanpham/xuly.php" enctype="multipart/form-data">  
     <tr>
-      <td>Ten san pham:</td>
+      <td>Tên sản phẩm:</td>
       <td><input type="text" name="pname"></td>
     </tr>
     <tr>
-      <td>Gia san pham:</td>
+      <td>Giá sản phẩm:</td>
       <td><input type="number" name="pprice"></td>
     </tr>
     <tr>
-      <td>So luong:</td>
+      <td>Số lượng:</td>
       <td><input type="number" name="pquantity"></td>
     </tr>
     <tr>
-      <td>Danh muc san pham:</td>
+      <td>Danh mục sản phẩm:</td>
       <td>
           <select name="cid">
             <?php

@@ -27,7 +27,8 @@
         <td> <?php echo $row['uemail'] ?></td>
         <td> <?php echo $row['uaddress'] ?></td>
         <td>
-            <a href="index.php?action=chitietdonhang&query=xemdonhang&code=<?php echo $row['cartcode'] ?>">Xem chi tiết đơn hàng</a> 
+            <a href="index.php?action=chitietdonhang&query=xemdonhang&code=<?php echo $row['cartcode'] ?>">Xem chi tiết đơn hàng</a> |
+            <a href="modules/quanlydonhang/xoa.php?code=<?php echo $row['cartcode'] ?>">Xóa đơn hàng</a>
         </td>
     </tr>
     <?php

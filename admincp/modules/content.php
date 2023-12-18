@@ -16,6 +16,11 @@
             include("modules/quanlydonhang/lietke.php");
         }elseif($t == 'chitietdonhang'&& $query == 'xemdonhang'){
             include("modules/quanlydonhang/chitietdonhang.php");
+        }elseif($t == 'quanlybaiviet'&& $query == 'them'){
+            include("modules/quanlybaiviet/them.php");
+            include("modules/quanlybaiviet/lietke.php");
+        }elseif($t == 'quanlybaiviet'&& $query == 'sua'){
+            include("modules/quanlybaiviet/sua.php");
         }else{
             include("modules/dashboard.php");
         }       

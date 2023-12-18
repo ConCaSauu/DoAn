@@ -20,4 +20,8 @@
 </form>
 <?php
     }
+    echo '<div style=" clear:both"></div>';
+    //hien thi rating
+    echo '<p style="font-weight:bold; font-size: 20px; text-align:left">Đánh giá sản phẩm</p>'
+
 ?>
